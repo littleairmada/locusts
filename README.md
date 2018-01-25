@@ -1,6 +1,6 @@
 # Locusts Docker Image
 
-This is based on [sernst/locusts](https://github.com/sernst/locusts) but updated to include 
+This is based on [sernst/locusts](https://github.com/sernst/locusts) but includes 
 specific requirements for our testing needs.
 
 The locusts docker image is designed for easily composing multi-container 
