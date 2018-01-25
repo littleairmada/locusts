@@ -1,6 +1,6 @@
 FROM ubuntu:16.10
 
-LABEL maintainer polarityio
+LABEL maintainer littleairmada@users.noreply.github.com
 
 RUN apt-get -y update
 

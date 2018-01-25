@@ -10,11 +10,11 @@ as either a master or worker depending on whether or not the `--master-host`
 flag is specified in a container's run execution call.
 
 The docker image is available in 
-[Docker Hub](https://hub.docker.com/r/polarityio/locusts/). You can pull the 
+[Docker Hub](https://hub.docker.com/r/littleairmada/locusts/). You can pull the 
 image with the command:
 
 ```bash
-$ docker pull polarityio/locusts:latest
+$ docker pull littleairmada/locusts:latest
 ```
 
 ## Master & Workers

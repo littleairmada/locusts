@@ -11,14 +11,14 @@ if not commit_message:
 commit_cmd = [
     'docker', 'commit',
     '-m', '"{}"'.format(commit_message),
-    '-a', '"PolarityIO"',
-    'polarityio/locusts', 'polarityio/locusts:latest'
+    '-a', '"littleairmada"',
+    'littleairmada/locusts', 'littleairmada/locusts:latest'
 ]
 
 print('COMMITTING IMAGE')
 os.system(' '.join(commit_cmd))
 
-cmd = ['docker', 'push', 'polarityio/locusts:latest']
+cmd = ['docker', 'push', 'littleairmada/locusts:latest']
 
 print('PUSHING IMAGE')
 os.system(' '.join(cmd))
