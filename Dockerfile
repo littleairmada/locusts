@@ -11,7 +11,7 @@ RUN apt-get -y install \
         python3-pip && \
     python3.6 -m pip install \
         locustio \
-        websockets
+        websocket-client
 
 COPY ./run.py /run.py
 
